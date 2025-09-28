@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    /* background-color: rgb(125, 172, 81); */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(2, 0, 2, 0.1);
+}
+
+.btn-1 {
+    padding: 10px 10px;
+    width: 100px;
+    background-color: rgb(105, 110, 110);
+    color: white;
+    box-sizing: border-box;
+}
+
+.btn-1:hover {
+    background-color: rgb(65, 76, 82);
+    color: rgb(201, 236, 230);
+}
+
+/* .container{
+    background-color: rgb(125, 172, 81);
+    box-sizing: border-box;
+    width: auto;
+    /* text-align:center; */
+/* } */
+.container form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.container label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.p-1 a {
+    text-decoration-line: none;
+    color: rgb(65, 36, 172);
+    box-sizing: border-box;
+}
+
+.p-1 a:hover {
+    text-decoration: underline;
+}

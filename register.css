@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ form{
+    display: flex;
+    flex-direction: column;
+    width:500px
+}
+.container label{
+    margin-bottom: 5px;
+}
+.container input[type="text"],
+.container input[type="password"] {
+    padding: 6px;
+    margin-bottom: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #e4e2e2f8;
+}
+p a {
+    text-decoration-line: none;
+    color: rgb(55, 3, 245);
+    box-sizing: border-box;
+}
+p a:hover{
+    text-decoration: underline;
+}
+.reg-btn{
+    padding: 9px;
+    background-color: rgb(145, 150, 148);
+    font-weight: 700;
+    color: rgb(243, 229, 202);
+}
+.reg-btn:hover{
+    background-color: rgb(102, 102, 155);
+}
+.signin{
+    text-align: center;
+    background-color:whitesmoke;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1);;
+    padding: 15px;
+}
