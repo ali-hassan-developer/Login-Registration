@@ -3,6 +3,15 @@
 A simple **Login & Registration System** built with **PHP** and **MySQL**.  
 This project includes backend authentication and a user dashboard.
 
+**Login Page**  
+![Login Page](screenshots/login.png)
+
+**Registration Page**  
+![Registration Page](screenshots/registration.png)
+
+**Dashboard**  
+![Dashboard](screenshots/dashboard.png)
+
 ---
 
 ## Files Overview
@@ -56,7 +65,7 @@ This project includes backend authentication and a user dashboard.
 
 ---
 
-## Notes
+## Notes & ScreenShots
 
 - Make sure your **XAMPP Apache server** is running before opening the pages.
 - Use **modern browsers** like Chrome, Firefox, or Edge for best results.
